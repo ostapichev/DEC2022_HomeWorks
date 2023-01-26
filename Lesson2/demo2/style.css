@@ -5,8 +5,9 @@ body {
 }
 
 .father {
+    margin-top: 50px;
     width: 700px;
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: space-evenly;
     background: aliceblue;
@@ -52,6 +53,10 @@ a {
     font-size: 14px;
     text-align: center;
     color: darkgrey;
+}
+
+.button:hover {
+    background-color: floralwhite;
 }
 
 
