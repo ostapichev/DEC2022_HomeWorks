@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+
 }
 
 .block {
@@ -34,6 +34,10 @@ body {
 }
 
 @media  screen and (min-width: 100px) and (max-width: 767px) {
+    .blocks_container {
+        align-items: center;
+    }
+
     .card {
         height: 96%;
     }
